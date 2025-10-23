@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phyo Than Zin Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&family=Sora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+</head>
+<body>
+    <a id="top"></a>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#top">Phyo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#top">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero d-flex align-items-center" data-aos="fade-up">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="hero-content">
+                        <h1>Hello, I'm <br>Phyo Than Zin</h1>
+                        <p class="card-text">A passionate UI/UX designer and developer crafting unique digital experiences.</p>
+                        <a href="#contact" class="btn btn-primary btn-lg">Hire Me</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="/media/profile.png" alt="Phyo Than Zin" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <!-- <section id="project" class="project" data-aos="fade-up">
+        <div class="container pt-5">
+            <h2 class="hero-content" style="font-size: 2rem; font-weight: bold; text-align: center; margin-bottom: 3rem;">UI/UX project</h2>
+            <img src="/media/Mobileapp.jpg" alt="Cake Shop App Banner">
+            <h1 class="hero-content" style="font-size: 2rem; font-weight: bold; text-align: left;">Cake Delivery App</h1>
+            <p style="text-align: left;">Delightful cakes delivered to your doorstep. Explore our app for the finest treats made with love and care.</p>
+            <a href="https://www.figma.com/design/L2DPGm3J89LgqbHrwsAucT/Phyo-s-Works?node-id=2004-488&t=MRfFTbDgTQiW54bK-1" class="btn btn-primary btn-lg">View Figma Project</a>
+        </div>
+    </section> -->
+    <section id="project" class="project" data-aos="fade-up">
+        <div class="container pt-5">
+            <h2 class="hero-content" style="font-size: 2rem; font-weight: bold; text-align: center; margin-bottom: 3rem;">My Design Projects
+            </h2>
+            <!-- Carousel Start -->
+            <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="/media/Mobileapp.jpg" class="d-block w-100" alt="Cake App 1">
+                </div>
+                <div class="carousel-item">
+                <img src="/media/ComponentShow1.png" class="d-block w-100" alt="Cake App 2">
+                </div>
+                <div class="carousel-item">
+                <img src="/media/ComponentShowcase2.png" class="d-block w-100" alt="Cake App 3">
+                </div>
+                <div class="carousel-item">
+                <img src="/media/All Pages.png" class="d-block w-100" alt="Cake App 3">
+                </div>
+                <div class="carousel-item">
+                <img src="/media/Thanks@2x.jpg" class="d-block w-100" alt="Cake App 4">
+                </div>
+            </div>
+            <!-- Navigation -->
+            <a href="#projectCarousel" class="carousel-control-prev" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#projectCarousel" class="carousel-control-next" data-bs-target="#projectCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+            <!-- Optional indicators (dots) -->
+            <!-- <div class="carousel-indicators">
+                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="2"></button>
+            </div> -->
+            </div>
+            <!-- Carousel End -->
+
+            <h3 class="hero-content" style="font-size: 2rem; font-weight: bold; text-align: left; margin-top: 2rem;">
+            Cake Shop App (UI/UX)
+            </h3>
+            <p class="card-text" style="text-align: left;">
+            Delightful cakes delivered to your doorstep. Explore our app for the finest treats made with love and care.
+            </p>
+            <div>
+                <a href="cakeshopapp.html"
+                class="btn btn-primary btn-lg me-5">
+                View Process
+                </a>
+                <!-- <a href="https://www.figma.com/design/L2DPGm3J89LgqbHrwsAucT/Phyo-s-Works?node-id=2004-488&t=MRfFTbDgTQiW54bK-1"
+                class="btn btn-primary btn-lg">
+                View Figma Project
+                </a> -->
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="projectCards" class="py-5">
+  <div class="container">
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-md-6">
+        <div class="project-card card shadow-lg rounded overflow-hidden">
+          <div class="image-container">
+            <img src="/media/Cookbook1.png" alt="Cake App Main" class="main-img">
+            <img src="/media/Cookbook2.png" alt="Cake App Hover" class="hover-img">
+          </div>
+          <div class="p-4">
+            <h4 class="fw-bold card-title" style="font-family:'Manrope',sans-serif;">Dessert Cookbook</h4>
+            <p class="card-text">A cozy, minimal cookbook layout designed for clarity and appetite. Every spread balances photography with clean typography, making each recipe easy to follow and delightful to look at.</p>
+            <a href="cookbook.html" class="btn btn-primary mt-2">View Artwork</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-6">
+        <div class="project-card card shadow-lg rounded overflow-hidden">
+          <div class="image-container">
+            <img src="/media/YTthumbnail2.png" alt="Coffee App Main" class="main-img">
+            <img src="/media/YTthumbnail3.png" alt="Coffee App Hover" class="hover-img">
+          </div>
+          <div class="p-4">
+            <h4 class="fw-bold card-title" style="font-family:'Manrope',sans-serif;">Youtube Thumbnails</h4>
+            <p class="card-text">A bold, scroll-stopping thumbnail built to capture attention instantly. Clean framing, sharp contrasts, and expressive typography highlight the channel’s visual identity.</p>
+            <a href="thumbnails.html" class="btn btn-primary mt-4">View Artwork</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- About Me Section -->
+    <section id="about" class="about scrollguide" data-aos="fade-up">
+        <div class="container">
+            <h2 class="hero-content" style="font-size: 2rem; font-weight: bold; text-align: center; margin-bottom: 3rem;">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="/media/vector.jpeg" alt="About Me" class="img-fluid rounded" style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);">
+                </div>
+                <div class="col-md-6 card-text">
+                    <p style="font-size: 1.2rem; line-height: 1.8;">
+                        Hello, I'm <strong class="highlight">Phyo Than Zin</strong>, a UI/UX designer passionate about creating clean, user-friendly digital experiences. I focus on crafting interfaces that are both visually engaging and intuitive to use. When I’m not designing, I’m exploring creative projects that challenge how people interact with digital products.
+                    </p>
+                    <!-- <p style="font-size: 1.2rem; line-height: 1.8;">
+                        When I'm not working, I love exploring the great outdoors through <strong>hiking</strong>. It helps me unwind and sparks fresh ideas for my projects. I also enjoy connecting with people from diverse backgrounds, which fuels my collaborative spirit and adaptability.
+                    </p> -->
+                    <p style="font-size: 1.2rem; line-height: 1.8;">
+                        I'm currently <strong class="highlight">available for work</strong>, and I thrive on challenges that allow me to push boundaries in design and development. With a dedication to excellence and a passion for problem-solving, I'm ready to bring your ideas to life.
+                    </p>
+                    <a href="#contact" class="mt-3 btn btn-primary btn-lg">Let's Collaborate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Cards Section -->
+    <section class="cards" data-aos="fade-up">
+        <div class="container">
+            <!-- My Skills Header -->
+            <h2 class="hero-content" style="font-size: 2rem; font-weight: bold; text-align: center; margin-bottom: 3rem;">Skills & Expertise</h2>
+            
+            <div class="row">
+                <!-- Existing Cards -->
+                <div class="col-md-4">
+                    <div class="card p-3 shadow-lg">
+                        <div class="card-body text-center">
+                            <i class="bi bi-code-slash" style="font-size: 3rem; background: linear-gradient(90deg, #843ab4, #ff9f1d); -webkit-background-clip: text; color: transparent;"></i> <!-- Gradient color here -->
+                            <h5 class="card-title mt-3">HTML, CSS, Javascript & Bootstrap</h5>
+                            <p class="card-text">Have good front-end web development experience with HTML, CSS, Javascript & Bootstrap.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3 shadow-lg">
+                        <div class="card-body text-center">
+                            <i class="bi bi-palette" style="font-size: 3rem; background: linear-gradient(90deg, #843ab4, #ff9f1d); -webkit-background-clip: text; color: transparent;"></i> <!-- Gradient color here -->
+                            <h5 class="card-title mt-3">Design Skills</h5>
+                            <p class="card-text bodytxt">Expertise in creating clean, modern, and user-centric designs. Strong Figma knowledge and familiar with Adobe XD, Photoshop, Indesign and Illustrator</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3 shadow-lg">
+                        <div class="card-body text-center">
+                            <i class="bi bi-person-lines-fill" style="font-size: 3rem; background: linear-gradient(90deg, #843ab4, #ff9f1d); -webkit-background-clip: text; color: transparent;"></i> <!-- Gradient color here -->
+                            <h5 class="card-title mt-3">Work Ethic</h5>
+                            <p class="card-text">Dedicated and adaptive, always striving to deliver exceptional results under any circumstances.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- New Cards -->
+                <div class="col-md-4">
+                    <div class="card p-3 shadow-lg">
+                        <div class="card-body text-center">
+                            <i class="bi bi-globe" style="font-size: 3rem; background: linear-gradient(90deg, #843ab4, #ff9f1d); -webkit-background-clip: text; color: transparent;"></i> <!-- Gradient color here -->
+                            <h5 class="card-title mt-3">Language Skills</h5>
+                            <p class="card-text">Fluent in English (英語 Intermediate) and Japanese (日本語 N3 level, reading, writing, and speaking).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card p-3 shadow-lg">
+                        <div class="card-body text-center">
+                            <i class="bi bi-clock" style="font-size: 3rem; background: linear-gradient(90deg, #843ab4, #ff9f1d); -webkit-background-clip: text; color: transparent;"></i> <!-- Gradient color here -->
+                            <h5 class="card-title mt-3">Time Flexibility</h5>
+                            <p class="card-text">Able to work both night and day shifts, adapting to any schedule for project needs.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card p-3 shadow-lg">
+                        <div class="card-body text-center">
+                            <i class="bi bi-chat-dots" style="font-size: 3rem; background: linear-gradient(90deg, #843ab4, #ff9f1d); -webkit-background-clip: text; color: transparent;"></i> <!-- Gradient color here -->
+                            <h5 class="card-title mt-3">Good Communication</h5>
+                            <p class="card-text">Clear and effective communication is my priority, ensuring smooth collaboration in any team environment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact scrollguide" data-aos="fade-up">
+        <div class="container">
+            <h2 class="hero-content" style="font-size: 2rem; font-weight: bold; text-align: center; margin-bottom: 3rem;">Get In Touch</h2>
+            
+            <p class="text-center mb-4" style="font-size: 1.2rem; color: #ddd;">Feel free to reach out! I'm available for freelance work or project collaborations.</p>
+            
+            <div class="row">
+                <div class="col-md-6 col-sm-12 text-center">
+                    <div class="contact-card">
+                        <i class="bi bi-envelope" style="font-size: 3rem; color: #ff9f1d;"></i>
+                        <h5 class="mt-3">Email</h5>
+                        <p>phyothanzin1245@gmail.com</p>
+                        <a href="mailto:phyothanzin1245@gmail.com" class="btn btn-primary btn-lg">Send Email</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 text-center">
+                    <div class="contact-card">
+                        <i class="bi bi-linkedin" style="font-size: 3rem; color: #0077b5;"></i>
+                        <h5 class="mt-3">LinkedIn</h5>
+                        <p>Connect with me on LinkedIn</p>
+                        <a href="https://www.linkedin.com/in/phyo-than-zin-b82ab326b/" target="_blank" class="btn btn-primary">Visit LinkedIn</a>
+                    </div>
+                </div>
+                <!-- <div class="col-md-4 text-center">
+                    <div class="contact-card">
+                        <i class="bi bi-facebook" style="font-size: 3rem; color: #1877f2;"></i>
+                        <h5 class="mt-3">Facebook</h5>
+                        <p>Message me on Facebook</p>
+                        <a href="https://www.facebook.com/share/1B9BjB37SF/" target="_blank" class="btn btn-primary">Visit Facebook</a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p class="footer-brand" style="font-family: 'Pacifico', cursive; font-size: 2rem; color: white;">Phyo</p>
+            <p style="color: #ddd;">Thank you for visiting my portfolio! Stay connected on my social media.</p>
+            
+            <div class="social-icons">
+                <!-- <a href="https://www.facebook.com/share/1B9BjB37SF/" target="_blank">
+                    <i class="bi bi-facebook" style="font-size: 2rem; color: #1877f2; margin-right: 15px;"></i>
+                </a> -->
+                <a href="https://www.linkedin.com/in/phyo-than-zin-b82ab326b/" target="_blank">
+                    <i class="bi bi-linkedin" style="font-size: 2rem; color: #0077b5; margin-right: 15px;"></i>
+                </a>
+                <a href="mailto:phyothanzin1245@gmail.com">
+                    <i class="bi bi-envelope" style="font-size: 2rem; color: #ff9f1d; margin-right: 15px;"></i>
+                </a>
+            </div>
+            
+            <p style="font-size: 1rem; color: #ddd; margin-top: 2rem;">&copy; 2025 Phyo Than Zin. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
