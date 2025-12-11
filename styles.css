@@ -113,7 +113,7 @@ body {
     box-shadow: 0 4px 10px rgba(255, 159, 29, 0.5);
 }
 
-#projectCarousel .carousel-item img {
+.projectCarousel .carousel-item img {
   height: 70vh; /* adjust to fit your layout */
   object-fit: cover;
   width: 100%;
@@ -285,4 +285,3 @@ body {
 .scrollguide {
     scroll-margin-top: 70px;
 }
-
